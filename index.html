@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+    <title>Formulário do Humor</title>
+</head>
+<body>
+    <div id="container">
+    <div>
+    <div>
+        <h1 class="title">Formulário do Humor</h1>
+    </div>
+    <div>
+        <form class="tipsform">
+            <p>Nome completo: <p>
+                <input type="text" placeholder="Digite seu nome" class="forminput"></p>
+            <p>Escala de humor:
+                <p>
+                    <select class="formselect">
+                    <option disable selected value="0">-- Escolha uma opção</option>
+                    <option value="1">100% - Muito Feliz</option>
+                    <option value="0.75">75% - Feliz</option>
+                    <option value="0.5">50% - Razoável</option>
+                    <option value="0.25">25% - Triste</option>
+                    <option value="0.05">5% - Deprimido</option>
+                </select>
+            </p>
+            <p>
+                Qual a melhor parte do seu dia?
+                <p><input type="radio">Manhã</p>
+                <p><input type="radio">Tarde</p>
+                <p><input type="radio">Noite</p>
+            </p>
+            <p>
+                No dia <input type="date" class="forminputdate"/> eu estava:
+                <p>Triste<input type="range" class="formrange" id="campo">Feliz</p>
+            </p>
+            <p>Descreva sua experiência: <input type="text" placeholder="Escreva aqui..." class="forminputex"></p>
+           <button type="submit" class="formsubmit">Enviar formulário</button>
+        </form>
+    </div>
+	
+</body>
+</html>
